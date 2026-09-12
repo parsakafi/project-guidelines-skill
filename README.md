@@ -66,6 +66,14 @@ Use only the references relevant to the task:
 - Security-sensitive work: `references/security.md`
 - Accessibility and browser UX: `references/accessibility.md`
 
+## Source Reference
+
+This skill is adapted from the project-guidelines repository:
+
+- https://github.com/elsewhencode/project-guidelines
+
+The upstream project contains the broader engineering guidance that this skill distills into a reusable agent-focused format. See also [ORIGIN.md](ORIGIN.md) for provenance and attribution details.
+
 ## Notes
 
 This skill is intended to be a practical default, not a mandate to modernize or rewrite an existing project. Existing repository conventions should take precedence unless a requirement or engineering problem clearly justifies a change.
