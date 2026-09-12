@@ -31,14 +31,24 @@ The skill helps a code agent:
 
 ## Instructions for Use
 
-1. Place this directory in a skills-compatible location, such as:
-   - `.github/skills/project-guidelines`
-   - `.agents/skills/project-guidelines`
-   - `.claude/skills/project-guidelines`
-2. Ensure the folder contains the `SKILL.md` file at the root of the skill directory.
-3. When a task matches the skill's scope, load the relevant references before implementing.
-4. Use the guidance to inspect the repo, plan a minimal change, implement carefully, and validate with the project's own tooling.
-5. Keep the final output focused on the user request and avoid unrelated refactors.
+Install the skill from the command line:
+
+```bash
+npx skills install parsakafi/project-guidelines-skill
+```
+
+Or place this directory in a skills-compatible location manually, such as:
+
+- `.github/skills/project-guidelines`
+- `.agents/skills/project-guidelines`
+- `.claude/skills/project-guidelines`
+
+Then:
+
+1. Ensure the folder contains the `SKILL.md` file at the root of the skill directory.
+2. When a task matches the skill's scope, load the relevant references before implementing.
+3. Use the guidance to inspect the repo, plan a minimal change, implement carefully, and validate with the project's own tooling.
+4. Keep the final output focused on the user request and avoid unrelated refactors.
 
 ## Reference Selection
 
